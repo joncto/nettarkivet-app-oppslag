@@ -20,3 +20,7 @@ venv/
 # Logs
 logs/
 *.log
+
+# OTher stuff built when using uv
+build/
+*.egg-info
