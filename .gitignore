@@ -24,3 +24,37 @@ logs/
 # OTher stuff built when using uv
 build/
 *.egg-info
+
+.git
+.gitignore
+.gitattributes
+.dockerignore
+Dockerfile
+
+# Environments
+.venv
+env/
+venv/
+.env
+.env.local
+.env.*.local
+
+# Build artefacts
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.pyc
+
+# Editors / OS
+.devcontainer
+.vscode/
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Data & lockfile (unused by this Dockerfile)
+*.xlsx
+uv.lock
