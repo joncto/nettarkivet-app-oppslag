@@ -1,16 +1,22 @@
 # Environments
 .venv
 .env
+.env.local
+.env.*.local
 env/
 venv/
 .devcontainer
-
-# IPython
-profile_default/
-ipython_config.py
 
 # macOS
 .DS_Store
 
 # vscode
 .vscode/*
+
+# Docker
+.docker/
+.docker-compose/
+
+# Logs
+logs/
+*.log
