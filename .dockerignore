@@ -1,0 +1,11 @@
+.git
+.gitignore
+.gitattributes
+.venv
+.env
+__pycache__
+*.pyc
+.devcontainer
+.vscode
+*.txt
+*.xlsx
